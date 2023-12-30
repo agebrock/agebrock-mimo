@@ -20,7 +20,7 @@ This project provides a convenient way to perform MongoDB-like operations on Jav
 To use this library in your project, you can install it via npm:
 
 ```bash
-npm install @agebrock/mimo
+npm install agebrock-mimo
 ```
 
 ## Usage
