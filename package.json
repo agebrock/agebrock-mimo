@@ -1,0 +1,25 @@
+{
+  "name": "agebrock-mimo",
+  "version": "0.0.1",
+  "description": "mongo like collection handling",
+  "types": "index.d.ts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "mongo",
+    "array",
+    "query"
+  ],
+  "author": "Christoph.Hagenbrock@googlemail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mingo": "^6.4.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
