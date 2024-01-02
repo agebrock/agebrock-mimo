@@ -1,5 +1,4 @@
 import mingo from "mingo";
-import _ from "lodash";
 import { updateObject } from "mingo/updater";
 
 function ensureArray(data) {
@@ -19,12 +18,7 @@ function find(...args) {
     return mingo.find.apply(null,args).all();
 }
 
-/**
- * 
- * @param {*} data 
- * @param {*} query 
- * @returns 
- */
+
 function findOne(...args) {
     return mingo.find.apply(null,args).next();
 }

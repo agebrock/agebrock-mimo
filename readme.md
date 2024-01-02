@@ -69,6 +69,13 @@ am not doing much client side development.
 let result = mimo.collectionn([{a:1}]);
 ```
 
+## CommonJS Usage
+Since 0.6 I have added support for commonjs usage. 
+
+```javascript
+const mimo = require('agebrock-mimo');
+let collection = mimo.collection([{a:1}]);
+```
 
 
 In this example, we create a `Collection` instance with sample data and use its methods (`find`, `findOne`, `exists`, `update`) for various operations. This allows you to easily work with collections and perform MongoDB-like operations in your code.

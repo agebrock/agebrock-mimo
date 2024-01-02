@@ -1,10 +1,4 @@
 export function find(...args: any[]): unknown[];
-/**
- *
- * @param {*} data
- * @param {*} query
- * @returns
- */
 export function findOne(...args: any[]): unknown;
 export function exists(data: any, query: any): boolean;
 export function update(data: any, query: any, updateCmd: any): string[][];
