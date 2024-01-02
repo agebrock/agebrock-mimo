@@ -28,7 +28,7 @@ npm install agebrock-mimo
 Import the `Collection` class from the library as follows:
 
 ```javascript
-import { Collection } from "@agebrock/mimo";
+import { Collection } from "agebrock-mimo";
 ```
 
 ### Example Usage
@@ -36,7 +36,7 @@ import { Collection } from "@agebrock/mimo";
 Suppose you have a collection of data and want to perform various operations on it. Here's an example of how to use the `Collection` class in your code:
 
 ```javascript
-import { Collection } from "mingo-utilities";
+import { Collection } from "agebrock-mimo";
 
 // Create a collection instance with sample data
 const data = new Collection([
@@ -60,6 +60,17 @@ data.update({ a: 1 }, { $set: { c: 5 } });
 // Add more operations as needed
 ```
 
+## Browser Usage
+I recently added support for browser usage. To use this library in your browser, I did this for a personal project so please feel free to use it as you wish. 
+The client library is located in the dist/browser folder. Feel free to submit a pull request if you have any improvements. Or suggestions on how to improve it, since I 
+am not doing much client side development. 
+```javascript
+// Import the library this will expose the mimo object
+let result = mimo.collectionn([{a:1}]);
+```
+
+
+
 In this example, we create a `Collection` instance with sample data and use its methods (`find`, `findOne`, `exists`, `update`) for various operations. This allows you to easily work with collections and perform MongoDB-like operations in your code.
 
 ## Contributions
@@ -72,7 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-This project is powered by the Mingo library and lodash.
+This project is powered by the Mingo library [npm](https://www.npmjs.com/package/mingo)
 
 ## Contact
 
